@@ -1,3 +1,4 @@
+//비동기 처리
 const fetchData = () => {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -20,4 +21,3 @@ setTimeout(() => {
 }, 2000);
 
 console.log('Hello!');
-//Hello 출력 후 Timer is done! 출력
